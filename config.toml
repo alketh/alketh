@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Alexander Keth"
 disqusShortname = ""
@@ -13,15 +13,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [permalinks]
     post = "/:year/:month/:day/:slug"
 
-
-
 [params]
     author = "Alexander Keth"
     bio = "Blogger - Data Scientist - Kayaker"
     location = "Hamburg (Germany)"
     site_description = ""
     copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
-    avatar = "css/images/avatar.png"
+    avatar = "css/images/logo.png"
     gravatar = "alexander.keth@uni-hamburg.de"
     logo = "css/images/logo.png"
     disable_mathjax = false # set to true to disable MathJax
@@ -55,7 +53,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Enter a link for the follow button on the left
 [params.profile]
-    follow_button = "https://github.com/digitalcraftsman"
+    follow_button = "https://github.com/alketh"
 
 
 [social]
